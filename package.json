@@ -2,7 +2,7 @@
   "name": "bwu",
   "version": "1.0.0",
   "description": "course-online",
-  "main": "index.js",
+  "main": "dist/index.html",
   "scripts": {
     "build:css": "npx tailwindcss build src/style.css -o dist/styles.css",
     "watch:tailwind": "nodemon --watch src/style.css -x \"npm run build:css\"",
